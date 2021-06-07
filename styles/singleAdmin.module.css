@@ -1,0 +1,110 @@
+.header{
+    height: 4rem;
+    display:flex;
+    z-index: 10;
+    position: sticky;
+    overflow: hidden;
+    height: 20vh;
+    top: 0;
+    display: flex;
+    padding-left: 120px;
+    background-color: #f17d11;
+    color: #ffff;
+    justify-content: space-around;
+}
+
+.header h4{
+    font-size: x-large;
+    margin-top: 45px;
+    margin-bottom: -2px;
+}
+
+.container{
+    display: flex;
+    position: relative;
+}
+
+.main{
+    width: 83%;
+    /* height: 80vh; */
+    background-color: #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    width: 93%;
+    
+    display: flex;
+    z-index: 800;
+    margin-top: -35px;
+    justify-content: space-between;
+    
+}
+
+.singleAdmin{
+    background-color: #ffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    /* padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    
+}
+
+.profileWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 80vh;
+}
+
+.adminProfile{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+    margin-top: 5px;
+
+    /* width: 53%; */
+}
+
+.adminProfile h6{
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.adminProfile p{
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #636363;
+    font-size: small;
+}
+
+.profilePicture{
+    /* background-color: #ffff; */
+    width: 35%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.profilePicture img{
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: 30vh;
+    border-radius: 15px;
+}
+
+.logout{
+    width: 100px;
+    height: 50px;
+    background-color: cornsilk;
+    color: #f17d11;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    cursor: pointer;
+}

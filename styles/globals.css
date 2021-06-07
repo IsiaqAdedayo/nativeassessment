@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.loginMessage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ee933f;
+  color: #e2e2e2;
+}
+
+.loginMessage a{
+  font-weight: bolder;
+  color: blue;
+}
+
+.loginMessage svg{
+  color: #ff0000;
+}

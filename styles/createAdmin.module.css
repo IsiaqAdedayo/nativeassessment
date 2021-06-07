@@ -1,0 +1,97 @@
+.header{
+    height: 4rem;
+    display:flex;
+    z-index: 10;
+    position: sticky;
+    overflow: hidden;
+    height: 20vh;
+    top: 0;
+    display: flex;
+    padding-left: 120px;
+    background-color: #f17d11;
+    color: #ffff;
+    justify-content: space-around;
+}
+
+.header h4{
+    font-size: x-large;
+    margin-top: 45px;
+    margin-bottom: -4px;
+}
+
+.container{
+    display: flex;
+    position: relative;
+}
+
+.main{
+    width: 83%;
+    /* height: 80vh; */
+    background-color: #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adminForm{
+    width: 83%;
+    min-height: 80vh;
+    background-color: #ffff;
+    display: flex;
+    z-index: 800;
+    margin-top: -35px;
+    /* position: fixed; */
+    flex-direction: column;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+.form label {
+    padding-bottom: 5px;
+}
+
+.field, .signin{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.signin{
+    border: 2px solid #f17d11;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.formSplit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formSplit div{
+    width: 48%;
+}
+
+.logout{
+    width: 100px;
+    height: 50px;
+    background-color: cornsilk;
+    color: #f17d11;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
